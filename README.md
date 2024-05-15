@@ -7,9 +7,10 @@
 - Dimensionality Reduction (PCA)
 - Clustering Algorithms 
 - Regression
+- Resources
 
 ## Project Overview
-This project aims to analyze a dataset of wine samples to identify patterns and predict wine preferences based on the number of bottles, considering their physicochemical properties.
+This project aims to analyze a dataset of wine samples to identify patterns and predict wine preferences based on the number of bottles, considering their physicochemical properties. 
 
 ![image](https://github.com/obinna-nweke/wine-data-analysis/assets/152950827/9b1c7ed4-2110-4d15-8663-02d84243f580)
 
@@ -37,7 +38,7 @@ After ranking the features in order of importance and recursively eliminating th
 ![image](https://github.com/obinna-nweke/wine-data-analysis/assets/152950827/d2fdff63-0250-42d5-b36f-b44026df5a07)
 
 
-N.B:  Feature selection eliminates the least important features, leaving the remaining features in their standardized form, while PCA reduces dimensionality and transforms the features. 
+*N.B:  Feature selection eliminates the least important features, leaving the remaining features in their standardized form, while PCA reduces dimensionality and transforms the features.*
 
 
 ### Clustering Analysis
@@ -65,6 +66,10 @@ A Negative Binomial regression model was chosen over Poisson regression due to t
 
 ## Recommendations
 Further analysis could focus on the interaction effects between different physicochemical properties and how they influence other factors like quality ratings. This could provide deeper insights into the relationships within the data and help improve predictive models.
+
+## Resources
+- Tool - Python [Download here](https://bit.ly/wd-notebook)
+- Data - [Wine Data](https://archive.ics.uci.edu/dataset/109/wine)
 
 ## Author
 - Obinna Nweke
