@@ -74,5 +74,7 @@ Further analysis could focus on the interaction effects between different physic
 ## Author
 - Obinna Nweke
 
+![Cover Image](image.png)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
